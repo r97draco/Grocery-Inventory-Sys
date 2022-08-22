@@ -1,0 +1,196 @@
+/* The CSS for the website. */
+/* This is a CSS rule that is used to make sure that the padding and border of an element is included in the total width and height of that element. */
+* {
+  box-sizing: border-box;
+}
+
+/* A CSS rule that is used to make sure that the padding and border of an element is included in the total width and height of that element. */
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Setting the minimum height of the html element to 100% of the viewport height. */
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Setting the font family, font weight, font size, background color, position, minimum height, and
+padding bottom of the body. */
+body {
+  font-family: "charter";
+  font-weight: 300;
+  font-size: 100%;
+  background-color: whitesmoke;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+/* Setting the border radius, margin, margin bottom, padding, and background color of the section,
+article, and aside elements. */
+section,
+article,
+aside {
+  border-radius: 9px;
+  margin: 3px;
+  margin-bottom: 13px;
+  padding: 8px;
+  background-color: white;
+}
+
+/* Setting the margin, padding, border radius, font family, clear, color, background color, margin
+bottom, and text alignment of the header and footer elements. */
+header,
+footer {
+  margin: 0px 3px;
+  padding: 8px;
+  border-radius: 05px;
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  clear: both;
+  color: #38ff26;
+  background-color: rgb(41, 40, 40);
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+/* Making the footer stick to the bottom of the page. */
+footer {
+  position: absolute;
+  float: bottom;
+  bottom: 0;
+  width: 99.2%;
+}
+
+/* Hiding the h2 element. */
+h2 {
+  color: white;
+  display: none;
+}
+
+/* Setting the background color of the section element to a light gray. */
+section {
+  background-color: #ddd;
+}
+
+/* Setting the border radius, margin, margin bottom, padding, background color, and clear
+of the div element. */
+div {
+  border-radius: 9px;
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 8px;
+  background-color: lightblue;
+  clear: both;
+}
+
+form {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Changing the color of the link when the mouse hovers over it. */
+a:hover {
+  border-radius: 3px;
+  background-color: rgb(0, 0, 0);
+  color: greenyellow;
+  transition-duration: 0.4s;
+
+}
+
+/* Setting the list style type, margin, background color, padding, border radius, and overflow of the
+ul element. */
+ul {
+  list-style-type: none;
+  margin: 0px 3px;
+  background-color: #333;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+/* Setting the display, text alignment, color, text decoration, and padding of the a element. */
+li a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+/* Changing the background color of the link when the mouse hovers over it. */
+li a:hover {
+  background-color: #222;
+}
+
+/* Setting the background color of the active class to a light green. */
+.active {
+  background-color: #0ead73;
+}
+
+/* Setting the font style and color of the err_msg class. */
+.err_msg {
+  font-style: italic;
+  color: red;
+}
+
+/* Setting the padding and height of the item-block class. */
+.item-block {
+  padding: 10px;
+  height: auto;
+}
+
+/* Setting the float, height, width, and margin right of the item image. */
+.item-image {
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin-right: 5px;
+}
+/* Setting the padding of the qty-style class to 0px 10px. */
+.qty-style {
+  padding: 0px 10px;
+}
+
+/* Setting the border of the zero-item class to 2px solid orangered. */
+.zero-item {
+  border: 2px solid orangered;
+}
+
+/* Setting the background color, border, border radius, color, padding, text alignment, text
+decoration, display, font size, and transition duration of the button, input[type=submit], and
+input[type=reset] elements. */
+button, input[type=submit], input[type=reset] {
+  background-color: #458947; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+/* Changing the background color of the button to green and the color of the text to white when the
+mouse hovers over the button. */
+button:hover,input[type=submit]:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+/* Setting the background color of the button to black. */
+button.del{
+  background-color: black; /* black */
+}
+/* Changing the background color of the button to white and the color of the text to black when the
+mouse hovers over the button. */
+button:hover.del{
+  background-color: white; /* white */
+  color: black;
+}
+

@@ -1,0 +1,43 @@
+Name : Jagroop Singh
+
+Working link : http://www2.cs.uregina.ca/~jse553/jsGroc/index.html
+
+Files details:
+
+(txt)
+1. log.txt : This File
+
+
+(php)- these files are php scripts and php code which contains html code too
+2. login.php : This is the login page. It is checking the user's input and validating it. If the user's input is valid, it will log the user in and redirect them to the family page. If the user's input is invalid, it will display an error message. 
+3. signup.php :This is the code for the signup page. It is checking if the user has submitted the form and if so, checking if the email is already in the database. If it is not, it is checking if the username, email, password, and date of birth are valid. If they are, it is inserting the user into the database. If not, it is displaying an error message.
+4. postg.php : It is php file for the Posting the groceries. It is the page where the user can post groceries. 
+5. family.php : This is the php code for the family page. It is checking if the form has been submitted and if the family name has been entered. It is php file for the to choose a family. 
+6. glist.php : It is php file to show the List of the groceries.
+7. index.php : It is php file for debugging purposes after login. This is the index page of the website. It is the  page that the we will use to test the website. It will display the login and signup page if the user is not logged in. If the user is logged in, it will display the welcome message and the links to the other pages.
+8. logout.php : Destroying the session and redirecting the user back to the login page.
+9. buy.php : PHP script for buy button ajax. A PHP script that updates the quantity of a grocery item in the database.
+10. consume.php : PHP script for consume button ajax. This is the PHP code that is executed when the user clicks the minus button. It connects to the database, gets the gid and qty from the request, and then updates the database with the new qty.
+11. delete.php : This is the PHP code that is used to delete the item from the database.
+12. retreiveList.php : A PHP script that is executed on the server. It connects to the database, runs a query, and returns the results as a JSON string. 
+
+
+(css)
+13. style.css : CSS file for styling our HTML
+
+
+(js)
+14. glist-r.js : Eventlhandler(item counter, hide/unhide consume button and border of div) for Grocery list.
+15. glist-update.js : Events for Grocery list.
+16. login-r.js : Eventlhandler for Login page.
+17. login-validate : Events for Login form validation.
+18. signup-r.js : Eventlhandler for Signup page.
+19. signup-validate.js : Events and functions for Signup form validation.
+20. postg-r.js :  Eventhandler for Grocery post page.
+21. postg-validate.js : Events for Grocery Post page form validation.
+
+22. ajaxButton.js : Ajax function for consume buy and delete buttons and to process the response
+23. ajaxUpdateGlist.js : Ajax function to dynamically load the grocery list every 90 seconds and process the JSON response
+
+(html)
+24. index.html : Redirects the user from index to login page

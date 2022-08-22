@@ -1,0 +1,2 @@
+/* Adding an event listener to the form with the id of "AddItem" and when the form is submitted it will call the function PostForm. */
+document.getElementById("Additem").addEventListener("submit", PostForm, false);
